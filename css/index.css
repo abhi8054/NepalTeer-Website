@@ -1,0 +1,79 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding:0 2rem;
+    background-color: #92ccfa;
+}
+.date{
+    font-weight: bold !important;
+    text-align: center;
+}
+.font{
+    font-size: 1.2rem;
+    font-weight: bold !important;
+}
+.clr-bdr{
+    background-color: #3fd5ba !important;
+    border: 2px solid black;
+    padding: 0 !important;
+}
+
+.wid{
+    width: 100% !important;
+}
+.footer{
+    background-color: #92ccfa !important;
+}
+button{
+    width: 100%;
+    padding: 0.5rem;
+}
+p{
+    margin: 0 !important;
+}
+hr{
+    width: 50%;
+    margin-top: 0;
+    border-width: 2px;
+}
+.col-12 > a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+#txtarea{
+    min-height: 100px;
+    resize: none;
+    padding: 0.4em;
+    width: 94%;
+    background: #F2F2F2;
+    color: #666;
+    border: 1px solid #DADADA;
+    outline: 0;
+    font-size: .9em;
+}
+
+#email{
+    width: 94%;
+    background: #F2F2F2;
+    color: #666;
+    border: 1px solid #DADADA;
+    outline: 0;
+    font-size: .9em;
+    padding: 0.5rem;
+}
+#submit{
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.6em 1em;
+    border: none;
+    width: 94%;
+    text-indent: 19px;
+    font-size: .9em;
+    background-color: #6995A9;
+}
